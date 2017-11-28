@@ -16,8 +16,7 @@ end
 
 def now_serving(katz_deli)
   while katz_deli.size != 0
-    now_serving = katz_deli.shift
-    puts "Currently serving #{now_serving}."
+    puts "Currently serving #{katz_deli.shift}."
   end
   puts "There is nobody waiting to be served!"
 end
