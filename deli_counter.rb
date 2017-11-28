@@ -13,3 +13,10 @@ def take_a_number(katz_deli, name)
   i = katz_deli.index(name)
   puts "Welcome, #{name}. You are number #{i+1} in line."
 end
+
+def now_serving(katz_deli)
+  while katz_deli.size != 0
+    now_serving = katz_deli.shift
+    puts "Currently serving #{now_serving}."
+  end
+end
